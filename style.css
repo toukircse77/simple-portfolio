@@ -16,6 +16,7 @@ body{
     margin-left: 15px;
     padding: 10px;
     height: 100vh;
+    font-size: 25px;
 }
 .half-width img{
     width: 100%;       
@@ -36,4 +37,20 @@ body{
     border-radius: 5px;
     background-image: linear-gradient(orange, tomato);
     color:white;
+}
+.about-me{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.aboutMe-btn{
+    padding:10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-image: linear-gradient(orange, tomato);
+    color:white;
+}
+.me-right{
+    margin-left:50px;
 }
