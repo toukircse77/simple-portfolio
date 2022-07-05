@@ -54,3 +54,32 @@ body{
 .me-right{
     margin-left:50px;
 }
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: initial;
+    height: 100vh;
+}
+h1{
+    font-size: 25px;
+    padding: 10px;
+}
+.container-halfWidth{
+    width: 40%;
+    float: left;
+    margin-left: 15px;
+    padding: 10px;
+    height: 100vh;
+
+}
+.Experience-text{
+    color: rgb(252, 169, 67);
+}
+.box-shadow{
+    box-shadow: 10px 10px 50px gray;
+    padding: 10px 40px ;
+    border-radius: 10px;
+}
+
